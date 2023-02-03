@@ -1,0 +1,27 @@
+{
+  "name": "lq-shell",
+  "version": "1.0.0",
+  "description": "脚手架搭建",
+  "main": "index.js",
+  "bin": {
+    "ld-cli": "./index.js"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "prune",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^9.5.0",
+    "download-git-repo": "^3.0.2",
+    "fs": "^0.0.1-security",
+    "handlebars": "3.0.8",
+    "inquirer": "^8.2.5",
+    "log-symbols": "^2.2.0",
+    "ora": "^3.0.0"
+  }
+}
